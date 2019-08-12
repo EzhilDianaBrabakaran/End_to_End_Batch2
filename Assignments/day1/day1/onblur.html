@@ -1,0 +1,21 @@
+<html>
+<body>
+
+Enter your name: <input type="text" onfocus="myFunction(this)" onblur="tFunction(this)"><br>
+<input type="text" onfocus="myFunction(this)" onblur="tFunction(this)">
+
+<p>When the input field gets focus, a function is triggered which changes the background-color.</p>
+
+<script>
+function myFunction(x) {
+    x.style.background = "yellow";
+    x.style.color="black";
+}
+function tFunction(x) {
+    x.style.background = "white";
+x.style.color="red";
+}
+</script>
+
+</body>
+</html>
